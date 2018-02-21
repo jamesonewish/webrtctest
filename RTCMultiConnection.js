@@ -3893,10 +3893,10 @@
         function getIceServers(connection) {
             var iceServers = [];
 
-            iceServers.push(getSTUNObj('stun:stun.l.google.com:19302'));
+            //iceServers.push(getSTUNObj('stun:stun.l.google.com:19302'));
 
             //iceServers.push(getTURNObj('stun:webrtcweb.com:7788', 'muazkh', 'muazkh')); // coTURN
-            //iceServers.push(getTURNObj('turn:webrtcweb.com:7788', 'muazkh', 'muazkh')); // coTURN
+            iceServers.push(getTURNObj('turn:webrtcweb.com:7788', 'muazkh', 'muazkh')); // coTURN
             //iceServers.push(getTURNObj('turn:webrtcweb.com:8877', 'muazkh', 'muazkh')); // coTURN
 
             //iceServers.push(getTURNObj('turns:webrtcweb.com:7788', 'muazkh', 'muazkh')); // coTURN
