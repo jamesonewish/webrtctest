@@ -16,7 +16,7 @@
         vertical-align: top;
     }
     input {
-        border: 1px solid #3409f3;
+        border: 1px solid #1cf309;
         border-radius: 1px;
         font-size: 2em;
         margin: .2em;
@@ -35,8 +35,8 @@
         padding: 1em;
     }
     li {
-        border-bottom: 1px solid rgb(56, 255, 6);
-        border-left: 1px solid rgb(245, 7, 7);
+        border-bottom: 1px solid rgb(241, 237, 2);
+        border-left: 1px solid rgb(233, 8, 8);
         padding: .5em;
     }
     </style>
@@ -62,7 +62,10 @@
 
         <!-- just copy this <section> and next script -->
         <section class="experiment">
+               
             <section>
+                    <header style="text-align: center;">
+                   
                 <span>
                     User
                     <a href="" target="_blank" title="Open this link in new tab. Then your room will be private!">
@@ -71,10 +74,13 @@
                         </code>
                     </a>
                 </span>
+            </header>
+                <header style="text-align: center;">
 
                 <input type="text" id="conference-name">
                 <button id="setup-new-conference" class="setup">เริ่ม</button>
             </section>
+        </header>
 
             <!-- list of all available broadcasting rooms -->
             <table style="width: 100%;" id="rooms-list">
@@ -196,13 +202,16 @@
         }
 
         window.onresize = scaleVideos;
+        
         </script>
+        <header style="text-align: center;">
 
         <section class="experiment">
             <h2 class="header" id="feedback">Computer Technology Group</h2>
             </div>
             
             <big style="margin-left: 1em;">Computer NetWork Engineering</big>
+             </header>
         </section>
         </section>
     </article>
@@ -211,6 +220,7 @@
     <footer>
     
     </footer>
+
 
 </body>
 
